@@ -1,7 +1,6 @@
 const input = document.querySelector("#validation-input");
 
 input.addEventListener("blur", () => {
-  console.log(input.value.length);
   if (
     input.value.length < Number(input.dataset.length) &&
     input.value.length > 0
